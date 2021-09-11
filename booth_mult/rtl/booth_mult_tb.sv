@@ -57,7 +57,7 @@ module booth_mult_tb;
 //  initial $monitor("At time %0t in_valid: %0b in_A: %0d in_B: %0d ref_data: %0h out_valid:%0b out_data : %0h",$time,in_valid,in_A,in_B,ref_data,out_valid,out_data);
 
 
-  booth_mul#(
+  booth_mult#(
     .MUL_A_W(MUL_A_W), 
     .MUL_B_W(MUL_B_W),
     .MUL_OUT_W(MUL_OUT_W)

@@ -3,7 +3,7 @@
 //Revision: 1.0
 `default_nettype none
 
-module booth_mul#(
+module booth_mult#(
   parameter MUL_A_W =8, 
   parameter MUL_B_W =8,
   parameter MUL_OUT_W = 16
