@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Sun Oct 03 07:22:47 2021
+[*]
+[dumpfile] "C:\Users\Manish\Desktop\my_git\vimfiles\carry_lookahead_adder\dv\test.vcd"
+[dumpfile_mtime] "Sun Oct 03 07:15:32 2021"
+[dumpfile_size] 8851
+[savefile] "C:\Users\Manish\Desktop\my_git\vimfiles\carry_lookahead_adder\dv\sim.gtkw"
+[timestart] 0
+[size] 1920 983
+[pos] -187 -184
+*-2.395929 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] carry_lookahead_adder_tb.
+[treeopen] carry_lookahead_adder_tb.inst_cla_adder.
+[treeopen] carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].
+[treeopen] carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.
+[sst_width] 288
+[signals_width] 200
+[sst_expanded] 1
+[sst_vpaned_height] 288
+@22
+carry_lookahead_adder_tb.inst_cla_adder.inst_cla_logic.carry_o[4:0]
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.carry[4:0]
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.sum_o[3:0]
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_o[4:0]
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_prop_i[3:0]
+@c00022
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_gen_i[3:0]
+@28
+(0)carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_gen_i[3:0]
+(1)carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_gen_i[3:0]
+(2)carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_gen_i[3:0]
+(3)carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_gen_i[3:0]
+@1401200
+-group_end
+@28
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inst_cla_logic.carry_i
+@22
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.carry_gen[3:0]
+@23
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inp_A_i[3:0]
+@22
+carry_lookahead_adder_tb.inst_cla_adder.CLA_UNIT[0].inst_cla_unit_adder.inp_B_i[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
