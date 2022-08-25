@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CARRY_OUT_SIZE	cla_signed_add_sub/rtl/cla_logic.v	/^  parameter CARRY_OUT_SIZE = 16$/;"	a
+CLA_DATA_IN_W	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  localparam CLA_DATA_IN_W = 4;$/;"	a
+DATA_IN_W	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  parameter DATA_IN_W = 4$/;"	a
+DATA_IN_W	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  parameter DATA_IN_W = 16$/;"	a
+DATA_IN_W	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  localparam DATA_IN_W   = 16;$/;"	a
+DATA_W	fifo/rtl/fifo.v	/^  parameter DATA_W = 8,$/;"	a
+DATA_W	fifo/rtl/fifo_tb.sv	/^  parameter  DATA_W  = 8;$/;"	a
+FIFO_DEPTH	fifo/rtl/fifo.v	/^  parameter FIFO_DEPTH = 16,$/;"	a
+FIFO_DEPTH	fifo/rtl/fifo_tb.sv	/^  parameter  FIFO_DEPTH = 16;$/;"	a
+FIFO_DEPTHLOG2	fifo/rtl/fifo.v	/^  parameter FIFO_DEPTHLOG2 = 5$/;"	a
+FIFO_DEPTHLOG2	fifo/rtl/fifo_tb.sv	/^  parameter  FIFO_DEPTHLOG2 = 5;$/;"	a
+MUL_A_W	booth_mult/rtl/booth_mult.v	/^  parameter MUL_A_W =8, $/;"	a
+MUL_A_W	booth_mult/rtl/booth_mult_tb.sv	/^  parameter MUL_A_W = 8;$/;"	a
+MUL_A_W_LOG2	booth_mult/rtl/booth_mult.v	/^  localparam MUL_A_W_LOG2 = 4;\/\/$log2(MUL_A_W);$/;"	a
+MUL_B_W	booth_mult/rtl/booth_mult.v	/^  parameter MUL_B_W =8,$/;"	a
+MUL_B_W	booth_mult/rtl/booth_mult_tb.sv	/^  parameter MUL_B_W = 8;$/;"	a
+MUL_OUT_W	booth_mult/rtl/booth_mult.v	/^  parameter MUL_OUT_W = 16$/;"	a
+MUL_OUT_W	booth_mult/rtl/booth_mult_tb.sv	/^  parameter MUL_OUT_W = 16;$/;"	a
+NUM_CLA_UNITS	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  localparam NUM_CLA_UNITS = DATA_IN_W\/CLA_DATA_IN_W;$/;"	a
+TIME_PERIOD	booth_mult/rtl/booth_mult_tb.sv	/^  parameter TIME_PERIOD = 10;$/;"	a
+TIME_PERIOD	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  localparam TIME_PERIOD = 10;$/;"	a
+TIME_PERIOD	fifo/rtl/fifo_tb.sv	/^  parameter  TIME_PERIOD = 4 ;$/;"	a
+booth_mult	booth_mult/rtl/booth_mult.v	/^module booth_mult#($/;"	m
+booth_mult_tb	booth_mult/rtl/booth_mult_tb.sv	/^module booth_mult_tb;$/;"	m
+carry	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  wire [DATA_IN_W  :0] carry;$/;"	v
+carry	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  wire [NUM_CLA_UNITS-1:0] carry;$/;"	v
+carry	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg                         carry;$/;"	v
+carry_gen	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  wire [DATA_IN_W-1:0] carry_gen;$/;"	v
+carry_gen	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  wire [NUM_CLA_UNITS-1:0] carry_gen;$/;"	v
+carry_gen_i	cla_signed_add_sub/rtl/cla_logic.v	/^  input  wire [CARRY_OUT_SIZE-1:0] carry_gen_i,$/;"	v
+carry_i	cla_signed_add_sub/rtl/cla_logic.v	/^  input  wire                      carry_i,$/;"	v
+carry_in_i	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  input  wire                 carry_in_i,$/;"	v
+carry_lookahead_unit_adder	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^module carry_lookahead_unit_adder#($/;"	m
+carry_o	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  output wire                 carry_o,$/;"	v
+carry_o	cla_signed_add_sub/rtl/cla_logic.v	/^  output wire [CARRY_OUT_SIZE:0]   carry_o $/;"	v
+carry_o	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  output wire                        carry_o,$/;"	v
+carry_prop	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  wire [DATA_IN_W-1:0] carry_prop;$/;"	v
+carry_prop	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  wire [NUM_CLA_UNITS-1:0] carry_prop;$/;"	v
+carry_prop_i	cla_signed_add_sub/rtl/cla_logic.v	/^  input  wire [CARRY_OUT_SIZE-1:0] carry_prop_i,$/;"	v
+cla_logic	cla_signed_add_sub/rtl/cla_logic.v	/^module cla_logic #($/;"	m
+cla_signed_add_sub	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^module cla_signed_add_sub #($/;"	m
+cla_signed_add_sub_tb	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^module cla_signed_add_sub_tb;$/;"	m
+clk	booth_mult/rtl/booth_mult.v	/^  input wire clk,$/;"	v
+clk	booth_mult/rtl/booth_mult_tb.sv	/^  reg   clk=0;                           $/;"	v
+clk	booth_mult/test.v	/^  input wire clk,$/;"	v
+clk	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg                         clk;$/;"	v
+clk	fifo/rtl/fifo.v	/^  input  wire                 clk,$/;"	v
+clk	fifo/rtl/fifo_tb.sv	/^  reg              clk;$/;"	v
+cntr	booth_mult/rtl/booth_mult.v	/^  reg  [MUL_A_W_LOG2-1  :  0]  cntr;$/;"	v
+d_i	booth_mult/test.v	/^  input wire d_i,$/;"	v
+dff	booth_mult/test.v	/^module dff($/;"	m
+expected_res	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  int                         expected_res;$/;"	v
+fifo	fifo/rtl/fifo.v	/^module fifo#($/;"	m
+fifo_empty	fifo/rtl/fifo.v	/^  output wire                 fifo_empty,$/;"	v
+fifo_empty	fifo/rtl/fifo_tb.sv	/^  wire             fifo_empty;$/;"	v
+fifo_full	fifo/rtl/fifo.v	/^  output wire                 fifo_full,$/;"	v
+fifo_full	fifo/rtl/fifo_tb.sv	/^  wire             fifo_full;$/;"	v
+fifo_init	fifo/rtl/fifo.v	/^  input  wire                 fifo_init,$/;"	v
+fifo_init	fifo/rtl/fifo_tb.sv	/^  reg              fifo_init;$/;"	v
+fifo_rd_data	fifo/rtl/fifo_tb.sv	/^  wire[DATA_W-1:0] fifo_rd_data;$/;"	v
+fifo_rd_en	fifo/rtl/fifo.v	/^  input  wire                 fifo_rd_en,$/;"	v
+fifo_rd_en	fifo/rtl/fifo_tb.sv	/^  reg              fifo_rd_en;$/;"	v
+fifo_rdata	fifo/rtl/fifo.v	/^  output wire [DATA_W-1:0]    fifo_rdata$/;"	v
+fifo_read	fifo/rtl/fifo_tb.sv	/^  task fifo_read (output int rdata);$/;"	t
+fifo_tb	fifo/rtl/fifo_tb.sv	/^module fifo_tb;$/;"	m
+fifo_wr_data	fifo/rtl/fifo.v	/^  input  wire [DATA_W-1:0]    fifo_wr_data,$/;"	v
+fifo_wr_data	fifo/rtl/fifo_tb.sv	/^  reg[DATA_W-1:0]  fifo_wr_data;$/;"	v
+fifo_wr_en	fifo/rtl/fifo.v	/^  input  wire                 fifo_wr_en,$/;"	v
+fifo_wr_en	fifo/rtl/fifo_tb.sv	/^  reg              fifo_wr_en;$/;"	v
+fifo_write	fifo/rtl/fifo_tb.sv	/^  task fifo_write (input int wdata);$/;"	t
+gr_carry_gen_o	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  output wire                 gr_carry_gen_o,$/;"	v
+gr_carry_gen_o	cla_signed_add_sub/rtl/cla_logic.v	/^  output wire                      gr_carry_gen_o,$/;"	v
+gr_carry_prop_o	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  output wire                 gr_carry_prop_o,$/;"	v
+gr_carry_prop_o	cla_signed_add_sub/rtl/cla_logic.v	/^  output wire                      gr_carry_prop_o,$/;"	v
+i	booth_mult/rtl/booth_mult_tb.sv	/^  integer i,j;$/;"	v
+in_valid	booth_mult/rtl/booth_mult_tb.sv	/^  reg   in_valid;                      $/;"	v
+in_valid_i	booth_mult/rtl/booth_mult.v	/^  input wire in_valid_i,$/;"	v
+inp_A	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg         [DATA_IN_W-1:0] inp_A;$/;"	v
+inp_A_i	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  input  wire [DATA_IN_W-1:0] inp_A_i,$/;"	v
+inp_B	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  wire [DATA_IN_W-1:0]     inp_B;$/;"	v
+inp_B	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg         [DATA_IN_W-1:0] inp_B;$/;"	v
+inp_B_i	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  input  wire [DATA_IN_W-1:0] inp_B_i,$/;"	v
+is	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^\/\/               performance carry lookahead logic is used instead of simple$/;"	v
+multr_qn	booth_mult/rtl/booth_mult.v	/^  reg  multr_qn;            $/;"	v
+num_jobs	fifo/rtl/fifo_tb.sv	/^    int num_jobs ;$/;"	v
+out_valid	booth_mult/rtl/booth_mult_tb.sv	/^  wire  out_valid;                     $/;"	v
+out_valid_o	booth_mult/rtl/booth_mult.v	/^  output reg                   out_valid_o,$/;"	v
+q_o	booth_mult/test.v	/^  output reg q_o$/;"	v
+rd_master	fifo/rtl/fifo_tb.sv	/^  task rd_master();$/;"	t
+rdata	fifo/rtl/fifo_tb.sv	/^    int rdata,ref_data;$/;"	v
+read_cntr	fifo/rtl/fifo_tb.sv	/^  int              read_cntr;$/;"	v
+reg_fifo_bank	fifo/rtl/fifo.v	/^  reg [DATA_W-1:0]         reg_fifo_bank[0:FIFO_DEPTH-1];$/;"	v
+reg_fifo_space_used	fifo/rtl/fifo.v	/^  reg [FIFO_DEPTHLOG2-1:0] reg_fifo_space_used;$/;"	v
+reg_rd_ptr	fifo/rtl/fifo.v	/^  reg [FIFO_DEPTHLOG2-1:0] reg_rd_ptr;$/;"	v
+reg_wr_ptr	fifo/rtl/fifo.v	/^  reg [FIFO_DEPTHLOG2-1:0] reg_wr_ptr;$/;"	v
+rst_n	booth_mult/rtl/booth_mult.v	/^  input wire rst_n,$/;"	v
+rst_n	booth_mult/rtl/booth_mult_tb.sv	/^  reg   rst_n;                         $/;"	v
+rst_n	booth_mult/test.v	/^  input wire rst_n,$/;"	v
+rst_n	fifo/rtl/fifo.v	/^  input  wire                 rst_n,$/;"	v
+rst_n	fifo/rtl/fifo_tb.sv	/^  reg              rst_n;$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  input wire signed [MUL_A_W-1 : 0]in_A_i,$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  input wire signed [MUL_B_W-1 : 0]in_B_i,$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  output reg signed [MUL_OUT_W-1 : 0] mult_out_o$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  reg  signed [MUL_A_W-1       :  0]  multr;$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  reg  signed [MUL_B_W-1       :  0]  multd;$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  reg  signed [MUL_B_W-1       :  0]  part_prod;$/;"	v
+signed	booth_mult/rtl/booth_mult.v	/^  reg  signed [MUL_B_W-1       :  0]  part_prod_d;$/;"	v
+signed	booth_mult/rtl/booth_mult_tb.sv	/^  reg   signed [MUL_A_W-1    :     0]  in_A;  $/;"	v
+signed	booth_mult/rtl/booth_mult_tb.sv	/^  reg   signed [MUL_B_W-1    :     0]  in_B;  $/;"	v
+signed	booth_mult/rtl/booth_mult_tb.sv	/^  reg   signed [MUL_OUT_W-1  :     0]  ref_data;  $/;"	v
+signed	booth_mult/rtl/booth_mult_tb.sv	/^  wire  signed [MUL_OUT_W-1  :     0]  out_data;  $/;"	v
+signed	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  input  wire signed [DATA_IN_W-1:0] inp_A_i,$/;"	v
+signed	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  input  wire signed [DATA_IN_W-1:0] inp_B_i,$/;"	v
+signed	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  output wire signed [DATA_IN_W-1:0] out_o$/;"	v
+signed	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg  signed [DATA_IN_W+1:0] act_res;$/;"	v
+signed	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  wire signed [DATA_IN_W-1:0] res;$/;"	v
+st	fifo/rtl/fifo_tb.sv	/^  int              st;$/;"	v
+sub_nadd	cla_signed_add_sub/rtl/cla_signed_add_sub.v	/^  input  wire                        sub_nadd,$/;"	v
+sub_nadd	cla_signed_add_sub/rtl/cla_signed_add_sub_tb.sv	/^  reg                         sub_nadd;$/;"	v
+sum_o	cla_signed_add_sub/rtl/carry_lookahead_unit_adder.v	/^  output wire [DATA_IN_W-1:0] sum_o$/;"	v
+sw_queue	fifo/rtl/fifo_tb.sv	/^  int              sw_queue[$];$/;"	v
+temp_carry_gen	cla_signed_add_sub/rtl/cla_logic.v	/^  reg   [CARRY_OUT_SIZE-1:0]temp_carry_gen;$/;"	v
+wdata	fifo/rtl/fifo_tb.sv	/^    int wdata;$/;"	v
+wr_master	fifo/rtl/fifo_tb.sv	/^  task wr_master(input int num_jobs=8);$/;"	t
